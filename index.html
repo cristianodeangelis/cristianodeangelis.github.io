@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano De Angelis</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cristiano De Angelis</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="filtro-idioma" class="mr-2">Filtrar por idioma:</label>
+                    <select id="filtro-idioma" class="form-control w-auto">
+                        <option value="todos">Todos</option>
+                        <option value="Português">Português</option>
+                        <option value="Español">Español</option>
+                        <option value="English">English</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <section id="inicio" class="inicio-section">
+                    <h2 class="inicio-title">Inicio</h2>
+                    <div id="publicaciones" class="publicaciones-container"></div>
+                </section>
+            </div>
+            <div class="col-md-2">
+                <div class="author-info text-center">
+                    <img src="C:\Users\jhona\Desktop\cristianodeangelis.github.io\20190708_dr_cristiano.jpg" alt="Autor" class="img-fluid rounded-circle mb-3">
+                    <h5>Cristiano De Angelis</h5>
+                    <p>Investigador y autor especializado en gestión del conocimiento y la inteligencia organizacional.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Cristiano De Angelis</p>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.amazonaws.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
