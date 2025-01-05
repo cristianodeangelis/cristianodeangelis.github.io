@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e9ecef !important;
     margin: 0;
     padding: 0;
 }
@@ -12,8 +12,8 @@ header {
     padding: 20px;
 }
 
-.navbar {
-    background-color: #10403B;
+.navbar.custom-navbar {
+    background-color: #00171f; /* Cambiado a #10403B */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px 20px;
 }
@@ -21,6 +21,12 @@ header {
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffcc00;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -53,9 +59,10 @@ footer {
     color: white;
     padding: 10px;
 }
+
 /* Estilos personalizados para la sección Inicio */
 .inicio-section {
-    background-color: #c9c9c9;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -65,7 +72,7 @@ footer {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #10403B;
+    color: #333;
 }
 
 .publicaciones-container {
@@ -78,6 +85,37 @@ footer {
     border: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #666;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-link {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.card-link:hover {
+    color: #0056b3;
 }
 
 /* Estilos personalizados para la información del autor */
