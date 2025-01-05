@@ -34,6 +34,7 @@
     </nav>
     <main class="container mt-5 pt-5">
         <div class="row">
+            <!-- Filtros -->
             <div class="col-md-2">
                 <div class="form-group">
                     <label for="filtro-idioma" class="mr-2">Filtrar por idioma:</label>
@@ -44,13 +45,28 @@
                         <option value="English">English</option>
                     </select>
                 </div>
+                <div class="form-group">
+                    <label for="filtro-recientes" class="mr-2">Ordenar por:</label>
+                    <select id="filtro-recientes" class="form-control w-auto">
+                        <option value="recientes">Más recientes</option>
+                        <option value="antiguos">Más antiguos</option>
+                    </select>
+                </div>
             </div>
+    
+            <!-- Contenido principal -->
             <div class="col-md-8">
+                <div class="form-group">
+                    <button id="filtro-investigaciones" class="btn btn-primary mb-2">Investigaciones</button>
+                    <button id="filtro-libros" class="btn btn-secondary">Libros</button>
+                </div>
                 <section id="inicio" class="inicio-section">
                     <h2 class="inicio-title">Inicio</h2>
                     <div id="publicaciones" class="publicaciones-container"></div>
                 </section>
             </div>
+    
+            <!-- Información del autor -->
             <div class="col-md-2">
                 <div class="author-info text-center">
                     <img src="20190708_dr_cristiano.jpg" alt="Autor" class="img-fluid rounded-circle mb-3">
@@ -60,6 +76,7 @@
             </div>
         </div>
     </main>
+    
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2023 Cristiano De Angelis</p>
     </footer>

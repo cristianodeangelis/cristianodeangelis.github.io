@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "palavras_chave": ["fuga de cérebros", "inteligência cultural", "indústria 4.0", "gestão do conhecimento", "cultura nacional", "inteligência organizacional"],
             "local": "Brasil, Alemanha",
             "idioma": "Português",
-            "enlace": "https://doi.org/10.47681/rca.v8i2.59185"
+            "enlace": "https://doi.org/10.47681/rca.v8i2.59185",
+            "tipo": "investigacion"
         },
         {
             "titulo": "A Emergência da reforma do estado brasileiro: a governança compartilhada e o modelo do novo serviço público",
@@ -25,6 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "local": "Brasil",
             "idioma": "Português",
             "enlace": "https://repositorio.ipea.gov.br/handle/11058/6639"
+            ,
+            "tipo": "investigacion"
         },
         
     {
@@ -38,7 +41,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["administração pública", "cultura organizacional", "estratégia", "gestão do conhecimento", "inovação", "inteligência econômica", "inteligência organizacional"],
         "local": "Brasil",
         "idioma": "Português",
-        "enlace": "https://www.revistas.usp.br/rai/article/view/79339"
+        "enlace": "https://www.revistas.usp.br/rai/article/view/79339",
+            "tipo": "investigacion"
     },
     {
         "titulo": "Uma proposta para o desenvolvimento da inteligência cultural em instituições educacionais",
@@ -51,7 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["inteligência cultural", "educação", "interculturalidade", "América Latina", "inclusão"],
         "local": "América Latina",
         "idioma": "Português",
-        "enlace": "https://doi.org/10.1234/abcd.v1i1.56789"
+        "enlace": "https://doi.org/10.1234/abcd.v1i1.56789",
+            "tipo": "investigacion"
     },
     {
         "titulo": "Humanização e Gestão por Inteligências para Reforma do Setor Público",
@@ -64,7 +69,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["Administração Pública", "Governança Compartilhada", "Gestão por Inteligências", "Humanização no Setor Público", "Inteligência Governamental"],
         "local": "Brasília, Brasil",
         "idioma": "Português",
-        "enlace": "https://assecor.org.br/wpfd_file/humanizacao-e-gestao-por-inteligencias-para-reforma-do-setor-publico/"
+        "enlace": "https://assecor.org.br/wpfd_file/humanizacao-e-gestao-por-inteligencias-para-reforma-do-setor-publico/",
+        "tipo": "investigacion"
     },
     {
         "titulo": "Gestão do conhecimento no setor público: um estudo de caso por meio do método OKA",
@@ -77,7 +83,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["gestão do conhecimento", "setor público", "método OKA", "gestión del conocimiento", "sector público", "OKA method", "knowledge management", "public sector"],
         "local": "Brasil",
         "idioma": "Português",
-        "enlace": "https://repositorio.enap.gov.br/handle/1/1591?mode=full"
+        "enlace": "https://repositorio.enap.gov.br/handle/1/1591?mode=full",
+        "tipo": "investigacion"
     },
     {
         "titulo": "The impact of national culture and knowledge management on governmental intelligence",
@@ -90,7 +97,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["national culture", "knowledge management", "governmental intelligence", "organisational culture", "public administration", "structural equation modelling"],
         "local": "Brazil, Germany",
         "idioma": "English",
-        "enlace": "https://doi.org/10.1108/JM2-08-2014-0069"
+        "enlace": "https://doi.org/10.1108/JM2-08-2014-0069",
+        "tipo": "investigacion"
     },
     {
         "titulo": "A Knowledge Management and Organizational Intelligence Model for Public Administration",
@@ -103,7 +111,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["knowledge management", "organizational culture", "public administration", "structural equation modeling", "organizational intelligence"],
         "local": "Germany, Brazil",
         "idioma": "English",
-        "enlace": "https://doi.org/10.1080/01900692.2013.791315"
+        "enlace": "https://doi.org/10.1080/01900692.2013.791315",
+        "tipo": "investigacion"
     },
     {
         "titulo": "Models Of Governance And The Importance Of KM For Public Administration",
@@ -116,7 +125,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["Knowledge Management", "Gen X", "Gen Y", "Web 2.0", "Networking", "Public Administration"],
         "local": "France",
         "idioma": "English",
-        "enlace": "https://doi.org/10.1080/01900692.2013.791315"
+        "enlace": "https://doi.org/10.1080/01900692.2013.791315",
+        "tipo": "investigacion"
     }
     ,
     {
@@ -130,7 +140,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["Cultural intelligence", "Knowledge management", "Military intelligence", "Public administration"],
         "local": "Moldova, Ukraine",
         "idioma": "English",
-        "enlace": "https://doi.org/10.5897/JLCR2022.0347"
+        "enlace": "https://doi.org/10.5897/JLCR2022.0347",
+        "tipo": "investigacion"
     },
     {
         "titulo": "A KM Organisational Intelligence Model for Public Sector Administrations",
@@ -143,7 +154,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["Knowledge Management", "Organizational Intelligence", "Public Administration", "New Public Management", "Social Participation", "Public Service"],
         "local": "France",
         "idioma": "English",
-        "enlace": "https://www.academic-bookshop.com/ourshop/prod_2664821-A-KM-Organisational-Intelligence-Model-for-Public-Sector-Administrations-by-Dr-Cristiano-Trindade-De-Angelis.html"
+        "enlace": "https://www.academic-bookshop.com/ourshop/prod_2664821-A-KM-Organisational-Intelligence-Model-for-Public-Sector-Administrations-by-Dr-Cristiano-Trindade-De-Angelis.html",
+        "tipo": "libro"
       },
       {
         "titulo": "Gestão por Inteligências",
@@ -156,7 +168,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["Gestão por Inteligências", "Inteligência Organizacional", "Políticas Públicas", "Gestão Pública", "Cultura", "Sociedade do Conhecimento"],
         "local": "Portugal",
         "idioma": "Português",
-        "enlace": "https://www.atlanticbookshop.pt/compendium/gestao-por-inteligencias"
+        "enlace": "https://www.atlanticbookshop.pt/compendium/gestao-por-inteligencias",
+        "tipo": "libro"
       },
       {
         "titulo": "Gestión por Inteligencias (Spanish Edition)",
@@ -169,7 +182,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "palavras_chave": ["Gestión por Inteligencias", "Reforma del Estado", "Modelo Burocrático", "Nueva Gestión Pública", "Nuevo Servicio Público", "Gestión Pública", "Eficiencia", "Democracia"],
         "local": "España",
         "idioma": "Español",
-        "enlace": "https://www.amazon.com/dp/B01AYEPRPY"
+        "enlace": "https://www.amazon.com/dp/B01AYEPRPY",
+        "tipo": "libro"
       }
     ];
     console.log(publicaciones);  // Verifica que se esté recibiendo el JSON
@@ -178,16 +192,41 @@ document.addEventListener('DOMContentLoaded', function() {
     mostrarPublicaciones(publicaciones);
 
     const filtroIdioma = document.getElementById('filtro-idioma');
-    filtroIdioma.addEventListener('change', function() {
-        const idiomaSeleccionado = this.value;
-        if (idiomaSeleccionado === 'todos') {
-            mostrarPublicaciones(publicaciones);
-        } else {
-            const publicacionesFiltradas = publicaciones.filter(publicacion => publicacion.idioma === idiomaSeleccionado);
-            mostrarPublicaciones(publicacionesFiltradas);
-        }
-    });
+    const filtroRecientes = document.getElementById('filtro-recientes');
+    const filtroInvestigaciones = document.getElementById('filtro-investigaciones');
+    const filtroLibros = document.getElementById('filtro-libros');
 
+    filtroIdioma.addEventListener('change', aplicarFiltros);
+    filtroRecientes.addEventListener('change', aplicarFiltros);
+    filtroInvestigaciones.addEventListener('click', aplicarFiltros);
+    filtroLibros.addEventListener('click', aplicarFiltros);
+
+    function aplicarFiltros() {
+        const idiomaSeleccionado = filtroIdioma.value;
+        const ordenSeleccionado = filtroRecientes.value;
+        const tipoSeleccionado = document.querySelector('.btn-primary').id === 'filtro-investigaciones' ? 'investigaciones' : 'libros';
+
+        let publicacionesFiltradas = publicaciones;
+
+        
+        if (idiomaSeleccionado !== 'todos') {
+            publicacionesFiltradas = publicacionesFiltradas.filter(publicacion => publicacion.idioma === idiomaSeleccionado);
+        }
+
+        if (tipoSeleccionado === 'investigaciones') {
+            publicacionesFiltradas = publicacionesFiltradas.filter(publicacion => publicacion.tipo === 'investigacion');
+        } else {
+            publicacionesFiltradas = publicacionesFiltradas.filter(publicacion => publicacion.tipo === 'libro');
+        }
+
+        if (ordenSeleccionado === 'recientes') {
+            publicacionesFiltradas.sort((a, b) => new Date(b.data) - new Date(a.data));
+        } else {
+            publicacionesFiltradas.sort((a, b) => new Date(a.data) - new Date(b.data));
+        }
+
+        mostrarPublicaciones(publicacionesFiltradas);
+    }
     function mostrarPublicaciones(publicaciones) {
         const publicacionesContainer = document.getElementById('publicaciones');
         publicacionesContainer.innerHTML = '';
@@ -206,4 +245,19 @@ document.addEventListener('DOMContentLoaded', function() {
             publicacionesContainer.appendChild(card);
         });
     }
+
+    filtroInvestigaciones.addEventListener('click', function() {
+        filtroInvestigaciones.classList.add('btn-primary');
+        filtroInvestigaciones.classList.remove('btn-secondary');
+        filtroLibros.classList.add('btn-secondary');
+        filtroLibros.classList.remove('btn-primary');
+        aplicarFiltros();
+    });
+    filtroLibros.addEventListener('click', function() {
+        filtroLibros.classList.add('btn-primary');
+        filtroLibros.classList.remove('btn-secondary');
+        filtroInvestigaciones.classList.add('btn-secondary');
+        filtroInvestigaciones.classList.remove('btn-primary');
+        aplicarFiltros();
+    });
 });

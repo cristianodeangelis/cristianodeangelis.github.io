@@ -142,3 +142,37 @@ footer {
     font-size: 0.9rem;
     color: #666;
 }
+/* Estilos personalizados para el filtro de autor libro */
+.form-group.d-flex {
+    flex-direction: row;
+}
+
+.form-group button {
+    margin-right: 10px;
+}
+
+.form-group button:last-child {
+    margin-right: 0;
+}
+
+.form-group button.btn-primary {
+    background-color: #00171f;
+    border-color: #00171f;
+}
+
+.form-group button.btn-primary:hover {
+    background-color: #00334e;
+    border-color: #00334e;
+}
+
+.form-group button.btn-secondary {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #00171f;
+}
+
+.form-group button.btn-secondary:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    color: #00171f;
+}
