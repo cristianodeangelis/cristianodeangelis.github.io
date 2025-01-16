@@ -61,118 +61,55 @@ footer {
 }
 
 /* Estilos personalizados para la sección Inicio */
+/* Estilos personalizados para la sección Inicio */
 .inicio-section {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    margin-bottom: 115px;
 
-.inicio-title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
 }
-
-.publicaciones-container {
+.biografia {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    align-items: center;
 }
 
-.card {
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.biografia img {
+    margin-right: auto;
+    width: 600px; /* Ajusta el tamaño de la imagen aquí */
+    height: 600px; /* Ajusta el tamaño de la imagen aquí */
 }
 
-.card-body {
-    padding: 20px;
-}
-
-.card-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.card-subtitle {
-    font-size: 1rem;
-    color: #666;
-}
-
-.card-text {
-    font-size: 1rem;
+.biografia p {
+    margin: 0;
     color: #555;
 }
 
-.card-link {
+.biografia-texto {
     font-size: 1rem;
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease;
+    line-height: 1.6;
+    color: #555;
+    margin-left: 20px;
 }
 
-.card-link:hover {
-    color: #0056b3;
+.biografia-texto p {
+    margin-bottom: 15px;
 }
-
-/* Estilos personalizados para la información del autor */
-.author-info {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.author-info img {
-    max-width: 100px;
-    border-radius: 50%;
-}
-
-.author-info h5 {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #333;
-}
-
-.author-info p {
-    font-size: 0.9rem;
-    color: #666;
-}
-/* Estilos personalizados para el filtro de autor libro */
-.form-group.d-flex {
-    flex-direction: row;
-}
-
-.form-group button {
-    margin-right: 10px;
-}
-
-.form-group button:last-child {
-    margin-right: 0;
-}
-
-.form-group button.btn-primary {
-    background-color: #00171f;
-    border-color: #00171f;
-}
-
-.form-group button.btn-primary:hover {
-    background-color: #00334e;
-    border-color: #00334e;
-}
-
-.form-group button.btn-secondary {
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
-    color: #00171f;
-}
-
-.form-group button.btn-secondary:hover {
-    background-color: #e2e6ea;
-    border-color: #dae0e5;
-    color: #00171f;
-}
+/* Estilos personalizados para la boton*/
+.my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-button:hover {
+    background-color: #45a049;
+  }
+  
+  .my-button:active {
+    background-color: #3e8e41;
+  }

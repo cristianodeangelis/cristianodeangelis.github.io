@@ -33,54 +33,23 @@
         </div>
     </nav>
     <main class="container mt-5 pt-5">
-        <div class="row">
-            <!-- Filtros -->
-            <div class="col-md-2">
-                <div class="form-group">
-                    <label for="filtro-idioma" class="mr-2">Filtrar por idioma:</label>
-                    <select id="filtro-idioma" class="form-control w-auto">
-                        <option value="todos">Todos</option>
-                        <option value="Português">Português</option>
-                        <option value="Español">Español</option>
-                        <option value="English">English</option>
-                    </select>
+        <section id="inicio" class="inicio-section">
+            <div class="biografia d-flex align-items-center">
+                <div class="mr-3">
+                    <img src="20190708_dr_cristiano.jpg" alt="Autor">
                 </div>
-                <div class="form-group">
-                    <label for="filtro-recientes" class="mr-2">Ordenar por:</label>
-                    <select id="filtro-recientes" class="form-control w-auto">
-                        <option value="recientes">Más recientes</option>
-                        <option value="antiguos">Más antiguos</option>
-                    </select>
+                <div class="biografia-texto">
+                    <p>Cristiano De Angelis is a freelance researcher at Skema Business School, France. His PhD Thesis was a comparative study between the Brazilian and German federal governments in terms of Knowledge Management and Organizational Intelligence. The Thesis has been published in Academic Conferences & Publishing International and turned into articles published in renowned journals such as the International Journal of Public Administration, International Journal of Modelling in Management and the Journal of Knowledge Management Practice.</p>
+                    <p>As an undergraduate and graduate professor, the author has taught at a private University, Unisul, and a public University, UFSC, both in Florianópolis, Santa Catarina, Brazil.</p>
+                    <button class="my-button">View Research</button>
                 </div>
             </div>
-    
-            <!-- Contenido principal -->
-            <div class="col-md-8">
-                <div class="form-group">
-                    <button id="filtro-investigaciones" class="btn btn-primary mb-2">Investigaciones</button>
-                    <button id="filtro-libros" class="btn btn-secondary">Libros</button>
-                </div>
-                <section id="inicio" class="inicio-section">
-                    <h2 class="inicio-title">Inicio</h2>
-                    <div id="publicaciones" class="publicaciones-container"></div>
-                </section>
-            </div>
-    
-            <!-- Información del autor -->
-            <div class="col-md-2">
-                <div class="author-info text-center">
-                    <img src="20190708_dr_cristiano.jpg" alt="Autor" class="img-fluid rounded-circle mb-3">
-                    <h5>Cristiano De Angelis</h5>
-                    <p>Investigador y autor especializado en gestión del conocimiento y la inteligencia organizacional.</p>
-                </div>
-            </div>
-        </div>
+           
+        </section>
     </main>
-    
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2023 Cristiano De Angelis</p>
     </footer>
-    <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -1,0 +1,86 @@
+body {
+    background: #f4f4f9; /* Fondo neutro, profesional */
+    color: #4a4a4a; /* Color de texto sobrio */
+    font-family: 'Roboto', sans-serif; /* Tipografía moderna y legible */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.container {
+    height: 90vh;
+}
+
+section#sobre {
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* Sombra sutil para un efecto profesional */
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 50%; /* Forma circular */
+    border: 3px solid #00bcd4; /* Color profesional */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #00796b; /* Verde azulado profesional */
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #00796b;
+    border-color: #00796b;
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004d40;
+    border-color: #004d40;
+    color: #ffffff;
+}
+
+.rounded-circle {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+@media (max-width: 768px) {
+    section#sobre {
+        height: auto;
+        padding: 2rem;
+    }
+
+    img {
+        max-width: 140px;
+        max-height: 140px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
