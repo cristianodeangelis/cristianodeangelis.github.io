@@ -116,3 +116,35 @@ footer {
 .continentes button {
     margin: 5px;
 }
+
+#libros-estilo .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+}
+
+#libros-estilo .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#libros-estilo .card-body {
+    padding: 20px;
+}
+
+#libros-estilo .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#libros-estilo .btn-primary {
+    background-color: #00171f;
+    border-color: #00171f;
+}
+
+#libros-estilo .btn-primary:hover {
+    background-color: #00334e;
+    border-color: #00334e;
+}
