@@ -64,52 +64,55 @@ footer {
 /* Estilos personalizados para la sección Inicio */
 .inicio-section {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 115px;
-
+    width: 80%;
+    margin: 0 auto;
 }
+
+.inicio-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 .biografia {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .biografia img {
-    margin-right: auto;
-    width: 600px; /* Ajusta el tamaño de la imagen aquí */
-    height: 600px; /* Ajusta el tamaño de la imagen aquí */
-}
-
-.biografia p {
-    margin: 0;
-    color: #555;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
 }
 
 .biografia-texto {
     font-size: 1rem;
     line-height: 1.6;
     color: #555;
-    margin-left: 20px;
+    text-align: left;
+    max-width: 800px;
 }
 
 .biografia-texto p {
     margin-bottom: 15px;
 }
-/* Estilos personalizados para la boton*/
-.my-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .my-button:hover {
-    background-color: #45a049;
-  }
-  
-  .my-button:active {
-    background-color: #3e8e41;
-  }
+
+/* Estilos para la sección de publicaciones */
+#publicaciones {
+    margin-top: 50px;
+}
+
+#publicaciones h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.continentes button {
+    margin: 5px;
+}

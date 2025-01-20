@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(publicaciones);  // Verifica que se esté recibiendo el JSON
 
     // Llamamos a mostrarPublicaciones para que todas las publicaciones se muestren al cargar la página
-    mostrarPublicaciones(publicaciones);
+
 
     const filtroIdioma = document.getElementById('filtro-idioma');
     const filtroRecientes = document.getElementById('filtro-recientes');
@@ -261,3 +261,4 @@ document.addEventListener('DOMContentLoaded', function() {
         aplicarFiltros();
     });
 });
+

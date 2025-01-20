@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+fu<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -33,18 +33,43 @@
         </div>
     </nav>
     <main class="container mt-5 pt-5">
-        <section id="inicio" class="inicio-section">
-            <div class="biografia d-flex align-items-center">
-                <div class="mr-3">
-                    <img src="20190708_dr_cristiano.jpg" alt="Autor">
+        <section id="inicio" class="inicio-section text-center">
+            <div class="biografia d-flex flex-column align-items-center">
+                <div class="mb-3">
+                    <img src="20190708_dr_cristiano.jpg" alt="Autor" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
                 </div>
                 <div class="biografia-texto">
                     <p>Cristiano De Angelis is a freelance researcher at Skema Business School, France. His PhD Thesis was a comparative study between the Brazilian and German federal governments in terms of Knowledge Management and Organizational Intelligence. The Thesis has been published in Academic Conferences & Publishing International and turned into articles published in renowned journals such as the International Journal of Public Administration, International Journal of Modelling in Management and the Journal of Knowledge Management Practice.</p>
                     <p>As an undergraduate and graduate professor, the author has taught at a private University, Unisul, and a public University, UFSC, both in Florianópolis, Santa Catarina, Brazil.</p>
-                    <button class="my-button">View Research</button>
                 </div>
             </div>
-           
+        </section>
+        <section id="publicaciones" class="text-center mt-5">
+            <h2>PUBLICACIONES</h2>
+            <div class="continentes mt-3">
+                <button class="btn btn-primary m-2" onclick="mostrarPublicaciones('africa')">África</button>
+                <button class="btn btn-primary m-2" onclick="mostrarPublicaciones('america')">América</button>
+                <button class="btn btn-primary m-2" onclick="mostrarPublicaciones('asia')">Asia</button>
+                <button class="btn btn-primary m-2" onclick="mostrarPublicaciones('europa')">Europa</button>
+                <button class="btn btn-primary m-2" onclick="mostrarPublicaciones('oceania')">Oceanía</button>
+            </div>
+            <div class="paises mt-3">
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('nigeria')">Nigeria</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('sudafrica')">Sudáfrica</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('egipto')">Egipto</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('estados_unidos')">Estados Unidos</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('brasil')">Brasil</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('argentina')">Argentina</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('china')">China</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('japon')">Japón</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('india')">India</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('alemania')">Alemania</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('francia')">Francia</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('reino_unido')">Reino Unido</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('australia')">Australia</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('nueva_zelanda')">Nueva Zelanda</button>
+                <button class="btn btn-secondary m-2" onclick="mostrarPublicaciones('fiyi')">Fiyi</button>
+            </div>
         </section>
     </main>
     <footer class="bg-dark text-white text-center py-3">
