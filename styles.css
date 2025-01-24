@@ -49,10 +49,11 @@ header {
 }
 
 main {
-    background-image: url('imagendefondo.png');
+ /*   background-image: url('imagendefondo.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-color: #003554;
 }
 
 footer {
