@@ -316,3 +316,99 @@ main {
 .investigacion-item a:hover {
   text-decoration: underline; /* Subrayado al pasar el ratón */
 }
+
+
+/* CSS para el contacto  */
+.contact-box {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #00171fa6;
+  border-radius: 10px;
+  background-color: #00171fa6;
+  color: #ffffff; /* Color blanco para el texto */
+}
+
+.contact-box img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.contact-box h4,
+.contact-box p,
+.contact-box a {
+  color: #ffffff; /* Color blanco para el texto */
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+form .form-control {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+form .btn-primary {
+  background-color: #00171f;
+  border-color: #00171f;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.contacto-texto h2,
+.contacto-texto p {
+    color: #ffffff; /* Color blanco para el texto */
+}
+
+/*estilos libro */
+.texto-libro h2,
+.texto-libro p {
+    color: #ffffff; /* Color blanco para el texto */
+}
+
+.libro-item {
+    background-color: #00171fa6;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff; /* Color blanco para el texto */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.libro-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.libro-item h4 {
+    margin-top: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+.libro-item p {
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #bbb0b0;
+    line-height: 1.6;
+}
+
+.libro-item a {
+    color: #ffffff;
+    background-color: #084e74;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.libro-item a:hover {
+    background-color: #062d4f;
+}
+
+.libro-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
