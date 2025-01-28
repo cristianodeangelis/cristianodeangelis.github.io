@@ -1,0 +1,244 @@
+
+const investigacionesData = [
+    {
+      titulo: "A marketing proposal to understand and review Latino voting in the US",
+      url: "https://article.isarpublisher.com/viewArticle/A-marketing-proposal-to-understand-and-review-Latino-voting-in-the-US-a-case-study-of-Cali-Baja-and-Trumps-posters",
+      pais: "India",
+      continente: "Asia"
+    },
+    {
+      titulo: "Educação como liberdade: um modelo de participação social e inclusão social para reduzir a distopia",
+      url: "https://www.even3.com.br/anais/12snsep/479335-educacao-como-liberdade--um-modelo-de-participacao-social-e-inclusao-social-para-reduzir-a-distopia/",
+      pais: "Brazil",
+      continente: "South, Central and North America"
+    },
+    {
+      titulo: "Artigo da Revista BEA",
+      url: "https://periodicos.unifesp.br/index.php/revbea/article/view/10593",
+      pais: "Brazil",
+      continente: "South, Central and North America"
+    },
+    {
+      titulo: "Artigo da Revista Ambientale",
+      url: "https://periodicosuneal.emnuvens.com.br/ambientale/article/view/535",
+      pais: "Brazil",
+      continente: "South, Central and North America"
+    },
+    {
+      titulo: "Humanização e gestão por inteligências para reforma do setor público",
+      url: "https://assecor.org.br/wpfd_file/humanizacao-e-gestao-por-inteligencias-para-reforma-do-setor-publico/",
+      pais: "Brazil",
+      continente: "South, Central and North America"
+    },
+    {
+      titulo: "Archivos CPLT",
+      url: "https://archives.cplt.cl/artic/20150108/asocfile/20150108180133/t_s_n4___web.pdf",
+      pais: "Chile",
+      continente: "South, Central and North America"
+    },
+    {
+      titulo: "Revista Ciencia Política #49",
+      url: "https://www.revcienciapolitica.com.ar/num49art7.php",
+      pais: "Argentina",
+      continente: "South, Central and North America"
+    },
+    {
+      titulo: "Revista Ciencia Política #48",
+      url: "https://www.revcienciapolitica.com.ar/num48art6.php",
+      pais: "Argentina",
+      continente: "South, Central and North America"
+    },
+    {
+      titulo: "Research article from Emerald Insight",
+      url: "https://www.emeraldinsight.com/doi/abs/10.1108/JM2-08-2014-0069",
+      pais: "England",
+      continente: "Europe"
+    },
+    {
+      titulo: "Gestão por inteligências",
+      url: "https://www.atlanticbookshop.pt/compendium/gestao-por-inteligencias",
+      pais: "Portugal",
+      continente: "Europe"
+    },
+    {
+      titulo: "A study on cultural intelligence",
+      url: "https://academicjournals.org/journal/IJLIS/article-in-press-abstract/a_model_of_cultural_intelligence_social_participation_and_governmental_intelligence_to_reduce_corruption",
+      pais: "Nigeria",
+      continente: "Africa"
+    }
+  ];
+
+
+
+
+css botones 
+  <section id="seleccion" class="col-12 col-md-3 text-center py-5 ">
+                <div class="sel sel--black-panther">
+                    <select name="select-continent" id="continentFilter">
+                        <option value="" disabled>Select Continent</option>
+                        <option value="AFRICA">Africa</option>
+                        <option value="EUROPE">Europe</option>
+                        <option value="ASIA">Asia</option>
+                    </select>
+                  </div>
+                  
+                  <hr class="rule">
+                  
+                  <div class="sel sel--superman">
+                    <select name="select-country" id="countryFilter">
+                        <option value="" disabled>Select Countries</option>
+                        <option value="NIGERIA">Nigeria</option>
+                        <option value="ENGLAND">England</option>
+                        <option value="BRAZIL">Brazil</option>
+                        <option value="ARGENTINA">Argentina</option>
+                    </select>
+                  </div>
+            </section>
+
+--------------------------------------------
+
+.rule {
+    margin: 10px 0;
+    border: none;
+    height: 1.5px;
+    background-image: linear-gradient(left, #f0f0f0, #c9bbae, #f0f0f0);
+  }
+  
+  /* ===== Select Box ===== */
+  .sel {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 3em 2em;
+    width: 150px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .sel::before {
+    position: absolute;
+    content: '\f063';
+    font-family: 'Arial';
+    font-size: 1em;
+    color: #ffffff00;
+    right: 20px;
+    top: calc(50% - 0.5em);
+  }
+  
+  .sel.active::before {
+    transform: rotateX(-180deg);
+  }
+  
+  .sel__placeholder {
+    display: block;
+    font-family: 'Arial';
+    font-size: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.5em;
+    text-align: left;
+    pointer-events: none;
+    user-select: none;
+    visibility: visible;
+  }
+  
+  .sel.active .sel__placeholder {
+    visibility: hidden;
+  }
+  
+  .sel__placeholder::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.2em 0.5em;
+    content: attr(data-placeholder);
+    visibility: hidden;
+  }
+  
+  .sel.active .sel__placeholder::before {
+    visibility: visible;
+  }
+  
+  .sel__box {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: -4px;
+    display: none;
+    list-style-type: none;
+    text-align: left;
+    font-size: 1em;
+    background-color: #051923af;
+    width: calc(100% + 8px);
+    box-sizing: border-box;
+  }
+  
+  .sel.active .sel__box {
+    display: block;
+    animation: fadeInUp 500ms;
+  }
+  
+  .sel__box__options {
+    display: list-item;
+    font-family: 'Arial';
+    font-size: 1em;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    user-select: none;
+  }
+  
+  .sel__box__options::after {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    font-size: 0.5em;
+    margin-left: 5px;
+    display: none;
+  }
+  
+  .sel__box__options.selected::after {
+    display: inline;
+  }
+  
+  .sel__box__options:hover {
+    background-color: #ebedef;
+  }
+  
+  /* ----- Select Box Black Panther ----- */
+  .sel {
+    border-bottom: 4px solid rgba(255, 255, 255, 0.466);
+    border-left: 4px solid rgba(255, 255, 255, 0.205);
+  }
+  
+  .sel--black-panther {
+    z-index: 3;
+  }
+  
+  /* ----- Select Box Superman ----- */
+  .sel--superman {
+  /*   display: none; */
+    z-index: 2;
+  }
+  
+  /* ===== Keyframes ===== */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 20px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+

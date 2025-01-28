@@ -109,11 +109,11 @@ main {
 }
 
 /* Estilos para la sección de publicaciones */
-#publicaciones {
+#publicaciones-index {
     margin-top: 50px;
 }
 
-#publicaciones h2 {
+#publicaciones-index h2 {
     font-size: 1rem;
     font-weight: bold;
     color: #ffffff;
@@ -236,160 +236,14 @@ main {
     appearance: none;
 }*/
 
-.rule {
-    margin: 10px 0;
-    border: none;
-    height: 1.5px;
-    background-image: linear-gradient(left, #f0f0f0, #c9bbae, #f0f0f0);
-  }
-  
-  /* ===== Select Box ===== */
-  .sel {
-    font-size: 1rem;
-    display: inline-block;
-    margin: 3em 2em;
-    width: 150px;
-    background-color: transparent;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .sel::before {
-    position: absolute;
-    content: '\f063';
-    font-family: 'Arial';
-    font-size: 1em;
-    color: #ffffff00;
-    right: 20px;
-    top: calc(50% - 0.5em);
-  }
-  
-  .sel.active::before {
-    transform: rotateX(-180deg);
-  }
-  
-  .sel__placeholder {
-    display: block;
-    font-family: 'Arial';
-    font-size: 1em;
-    color: #ffffff;
-    padding: 0.2em 0.5em;
-    text-align: left;
-    pointer-events: none;
-    user-select: none;
-    visibility: visible;
-  }
-  
-  .sel.active .sel__placeholder {
-    visibility: hidden;
-  }
-  
-  .sel__placeholder::before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0.2em 0.5em;
-    content: attr(data-placeholder);
-    visibility: hidden;
-  }
-  
-  .sel.active .sel__placeholder::before {
-    visibility: visible;
-  }
-  
-  .sel__box {
-    position: absolute;
-    top: calc(100% + 4px);
-    left: -4px;
-    display: none;
-    list-style-type: none;
-    text-align: left;
-    font-size: 1em;
-    background-color: #051923af;
-    width: calc(100% + 8px);
-    box-sizing: border-box;
-  }
-  
-  .sel.active .sel__box {
-    display: block;
-    animation: fadeInUp 500ms;
-  }
-  
-  .sel__box__options {
-    display: list-item;
-    font-family: 'Arial';
-    font-size: 1em;
-    color: #ffffff;
-    padding: 0.5em 1em;
-    user-select: none;
-  }
-  
-  .sel__box__options::after {
-    content: '\f00c';
-    font-family: 'FontAwesome';
-    font-size: 0.5em;
-    margin-left: 5px;
-    display: none;
-  }
-  
-  .sel__box__options.selected::after {
-    display: inline;
-  }
-  
-  .sel__box__options:hover {
-    background-color: #ebedef;
-  }
-  
-  /* ----- Select Box Black Panther ----- */
-  .sel {
-    border-bottom: 4px solid rgba(255, 255, 255, 0.466);
-    border-left: 4px solid rgba(255, 255, 255, 0.205);
-  }
-  
-  .sel--black-panther {
-    z-index: 3;
-  }
-  
-  /* ----- Select Box Superman ----- */
-  .sel--superman {
-  /*   display: none; */
-    z-index: 2;
-  }
-  
-  /* ===== Keyframes ===== */
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translate3d(0, 20px, 0);
-    }
-  
-    to {
-      opacity: 1;
-      transform: none;
-    }
-  }
-  
-  @keyframes fadeOut {
-    from {
-      opacity: 1;
-    }
-  
-    to {
-      opacity: 0;
-    }
-  }
-
-
   /* CSS para el research contacto */
   .contact-box {
     display: inline-block;
     text-align: center;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #00171fa6;
     border-radius: 10px;
-    background-color: #f8f9fa;
+    background-color: #00171fa6;
 }
 
 .contact-box img {
@@ -401,20 +255,64 @@ main {
     margin-top: 10px;
     font-size: 16px;
 }
-
+.contact-box h4,
+.contact-box p,
+.contact-box a {
+    color: #ffffff; /* Color blanco para el texto */
+}
 
 /* CSS para el research investigacion */
 .research-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f8f9fa;
-    min-height: 200px;
-    overflow-y: auto;
-    max-height: 400px;
-    margin-top: 20px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #00171fa6;
+  border-radius: 15px;
+  background-color: #00171fa6;
+  margin-top: 50px;
+  width: 80%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.investigacion-item {
+  display: flex; /* Flexbox para los items */
+  flex-direction: column;
+  justify-content: space-between; /* Asegura que el contenido se distribuya de manera uniforme */
+  border: 1px solid #084e748f;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #084e7475;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  height: 250px; /* Todos los cuadros tendrán la misma altura */
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
+  width: 100%; /* Ocupará todo el ancho disponible */
+}
+
+.investigacion-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.investigacion-item h3 {
+  margin-top: 0;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.investigacion-item p {
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #bbb0b0;
+  line-height: 1.6;
+}
+
+.investigacion-item a {
+  color: #1e90ff; /* Color del enlace */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.investigacion-item a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
 }

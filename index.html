@@ -52,37 +52,22 @@
                 </div>
             </div>
         </section>
-        <section id="publicaciones" class="text-center mt-5">
+        <section id="publicaciones-index" class="text-center mt-5">
             <h2>RESEARCH</h2>
             <div class="continentes mt-3">
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="mostrarPublicaciones('africa')">Africa</button>
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="mostrarPublicaciones('america')">America</button>
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="mostrarPublicaciones('asia')">Asia</button>
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="mostrarPublicaciones('europe')">Europe</button>
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="mostrarPublicaciones('oceania')">Oceania</button>
+                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'Africa')">Africa</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Brazil')">Brazil</button>
+                    
             </div>
             <div> </div>
             <h2>RESEARCH FOR COUNTRIES</h2>
             <div class="continentes mt-3">
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('nigeria')">Nigeria</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('south_africa')">South Africa</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('egypt')">Egypt</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('united_states')">United States</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('brazil')">Brazil</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('argentina')">Argentina</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('china')">China</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('japan')">Japan</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('india')">India</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('germany')">Germany</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('france')">France</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('united_kingdom')">United Kingdom</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('australia')">Australia</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('new_zealand')">New Zealand</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="mostrarPublicaciones('fiji')">Fiji</button>
+               <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('country', 'brazil')">Brazil</button>
             </div>
             
             </div>
-        </section>
+        </section> 
+
     </main>
     <footer class="text-white text-center py-3 custom-footer">
         <p>&copy; 2023 Cristiano De Angelis</p>
