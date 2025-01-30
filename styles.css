@@ -260,8 +260,6 @@ main {
 .contact-box a {
     color: #ffffff; /* Color blanco para el texto */
 }
-
-/* CSS para el research investigacion */
 .research-box {
   display: flex;
   flex-direction: column;
@@ -285,7 +283,7 @@ main {
   border-radius: 8px;
   background-color: #084e7475;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  height: 250px; /* Todos los cuadros tendrán la misma altura */
+  height: auto; /* Ajusta la altura automáticamente */
   box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
   width: 100%; /* Ocupará todo el ancho disponible */
 }
@@ -316,7 +314,6 @@ main {
 .investigacion-item a:hover {
   text-decoration: underline; /* Subrayado al pasar el ratón */
 }
-
 
 /* CSS para el contacto  */
 .contact-box {
