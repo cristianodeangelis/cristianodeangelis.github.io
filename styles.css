@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e9ecef !important;
+    height: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -11,7 +13,17 @@ header {
     text-align: center;
     padding: 20px;
 }
-
+html{
+    height: 100%;
+    margin: 0;
+}
+main {
+    background-color: #003554;
+    flex: 1;
+}
+.custom-footer {
+    background-color: #00171f;
+}
 .navbar.custom-navbar {
     background-color: #00171f; /* Cambiado a #10403B */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -48,26 +60,20 @@ header {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 8, 8, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-main {
-    padding: 20px;
-    margin-top: 80px; /* Adjust this value based on the height of your nav */
-}
 
-footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-}
 
 /* Estilos personalizados para la sección Inicio */
+/* Estilos personalizados para la sección Inicio */
 .inicio-section {
-    background-color: #ffffff;
+    background-color: #00171f;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:fit-content; /* Ajusta el ancho según sea necesario */
+    margin: 10px auto 0 auto; /* 10px de margen superior para separar del navbar, centrado horizontalmente */
+    position: relative;
+    top: 35px; /* Asegura que esté a 10px del navbar */
 }
-
 .inicio-title {
     font-size: 2rem;
     font-weight: bold;
@@ -75,104 +81,331 @@ footer {
     color: #333;
 }
 
-.publicaciones-container {
+.biografia {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    
+    
 }
 
-.card {
+.biografia img {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.biografia-texto {
+    font-size: 1rem;
+    line-height: 2;
+    color: white;
+    text-align: justify;
+    max-width: 800px;
+}
+
+.biografia-texto p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Estilos para la sección de publicaciones */
+#publicaciones-index {
+    margin-top: 50px;
+}
+
+#publicaciones-index h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.continentes button {
+    margin: 5px;
+}
+
+#libros-estilo .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card-body {
+#libros-estilo .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#libros-estilo .card-body {
     padding: 20px;
 }
 
-.card-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.card-subtitle {
-    font-size: 1rem;
-    color: #666;
-}
-
-.card-text {
-    font-size: 1rem;
-    color: #555;
-}
-
-.card-link {
-    font-size: 1rem;
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.card-link:hover {
-    color: #0056b3;
-}
-
-/* Estilos personalizados para la información del autor */
-.author-info {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.author-info img {
-    max-width: 100px;
-    border-radius: 50%;
-}
-
-.author-info h5 {
+#libros-estilo .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    margin-top: 10px;
+    margin-bottom: 15px;
     color: #333;
 }
 
-.author-info p {
-    font-size: 0.9rem;
-    color: #666;
-}
-/* Estilos personalizados para el filtro de autor libro */
-.form-group.d-flex {
-    flex-direction: row;
-}
-
-.form-group button {
-    margin-right: 10px;
-}
-
-.form-group button:last-child {
-    margin-right: 0;
-}
-
-.form-group button.btn-primary {
+#libros-estilo .btn-primary {
     background-color: #00171f;
     border-color: #00171f;
 }
 
-.form-group button.btn-primary:hover {
+#libros-estilo .btn-primary:hover {
     background-color: #00334e;
     border-color: #00334e;
 }
 
-.form-group button.btn-secondary {
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
-    color: #00171f;
+/* Estilos para los botones*/
+/* CSS */
+.button-65 {
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #2f80ed;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 14px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  
+  .button-65:hover {
+    background-color: #1366d6;
+    box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+  }
+  
+  .button-65:hover:after {
+    opacity: .5;
+  }
+  
+  .button-65:active {
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    transform: translateY(2px);
+    transition-duration: .35s;
+  }
+  
+  .button-65:active:after {
+    opacity: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .button-65 {
+      padding: 14px 22px;
+      width: 176px;
+    }
+  }
+  /* CSS para libros */
+  .clasebody{
+    background-color: #003554;
+  }
+
+
+  /* CSS para research select 
+
+.dark-mode-elegance select {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}*/
+
+  /* CSS para el research contacto */
+  .contact-box {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #00171fa6;
+    border-radius: 10px;
+    background-color: #00171fa6;
 }
 
-.form-group button.btn-secondary:hover {
-    background-color: #e2e6ea;
-    border-color: #dae0e5;
-    color: #00171f;
+.contact-box img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.contact-box p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.contact-box h4,
+.contact-box p,
+.contact-box a {
+    color: #ffffff; /* Color blanco para el texto */
+}
+.research-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #00171fa6;
+  border-radius: 15px;
+  background-color: #00171fa6;
+  margin-top: 50px;
+  width: 80%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.investigacion-item {
+  display: flex; /* Flexbox para los items */
+  flex-direction: column;
+  justify-content: space-between; /* Asegura que el contenido se distribuya de manera uniforme */
+  border: 1px solid #084e748f;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #084e7475;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  height: auto; /* Ajusta la altura automáticamente */
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
+  width: 100%; /* Ocupará todo el ancho disponible */
+}
+
+.investigacion-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.investigacion-item h3 {
+  margin-top: 0;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.investigacion-item p {
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #bbb0b0;
+  line-height: 1.6;
+}
+
+.investigacion-item a {
+  color: #1e90ff; /* Color del enlace */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.investigacion-item a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* CSS para el contacto  */
+.contact-box {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #00171fa6;
+  border-radius: 10px;
+  background-color: #00171fa6;
+  color: #ffffff; /* Color blanco para el texto */
+}
+
+.contact-box img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.contact-box h4,
+.contact-box p,
+.contact-box a {
+  color: #ffffff; /* Color blanco para el texto */
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+form .form-control {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+form .btn-primary {
+  background-color: #00171f;
+  border-color: #00171f;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.contacto-texto h2,
+.contacto-texto p {
+    color: #ffffff; /* Color blanco para el texto */
+}
+
+/*estilos libro */
+.texto-libro h2,
+.texto-libro p {
+    color: #ffffff; /* Color blanco para el texto */
+}
+
+.libro-item {
+    background-color: #00171fa6;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff; /* Color blanco para el texto */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.libro-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.libro-item h4 {
+    margin-top: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+.libro-item p {
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #bbb0b0;
+    line-height: 1.6;
+}
+
+.libro-item a {
+    color: #ffffff;
+    background-color: #084e74;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.libro-item a:hover {
+    background-color: #062d4f;
+}
+
+.libro-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
 }

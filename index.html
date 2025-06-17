@@ -20,67 +20,67 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#inicio">Inicio</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">Sobre mí</a>
-                    </li>
+                        <a class="nav-link" href="libros.html">Books</a>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="contacto.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="container mt-5 pt-5">
-        <div class="row">
-            <!-- Filtros -->
-            <div class="col-md-2">
-                <div class="form-group">
-                    <label for="filtro-idioma" class="mr-2">Filtrar por idioma:</label>
-                    <select id="filtro-idioma" class="form-control w-auto">
-                        <option value="todos">Todos</option>
-                        <option value="Português">Português</option>
-                        <option value="Español">Español</option>
-                        <option value="English">English</option>
-                    </select>
+    <main>
+        <section id="inicio" class="inicio-section text-center">
+            <div class="container biografia">
+                <div class="row justify-content-center mb-3">
+                    <div class="col-12 col-md-4">
+                        <img src="image/20190708_dr_cristiano.jpg" alt="Autor" class="img-fluid rounded-circle" style="width: 700px; height: 200px;">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="filtro-recientes" class="mr-2">Ordenar por:</label>
-                    <select id="filtro-recientes" class="form-control w-auto">
-                        <option value="recientes">Más recientes</option>
-                        <option value="antiguos">Más antiguos</option>
-                    </select>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="biografia-texto">
+                            <p>Cristiano De Angelis is a freelance researcher at Skema Business School, France. His PhD Thesis was a comparative study between the Brazilian and German federal governments in terms of Knowledge Management and Organizational Intelligence. The Thesis has been published in Academic Conferences & Publishing International and turned into articles published in renowned journals such as the International Journal of Public Administration, International Journal of Modelling in Management and the Journal of Knowledge Management Practice.</p>
+                            <p>As an undergraduate and graduate professor, the author has taught at a private University, Unisul, and a public University, UFSC, both in Florianópolis, Santa Catarina, Brazil.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-    
-            <!-- Contenido principal -->
-            <div class="col-md-8">
-                <div class="form-group">
-                    <button id="filtro-investigaciones" class="btn btn-primary mb-2">Investigaciones</button>
-                    <button id="filtro-libros" class="btn btn-secondary">Libros</button>
-                </div>
-                <section id="inicio" class="inicio-section">
-                    <h2 class="inicio-title">Inicio</h2>
-                    <div id="publicaciones" class="publicaciones-container"></div>
-                </section>
+        </section>
+        <section id="publicaciones-index" class="text-center mt-5">
+            <h2>RESEARCH</h2>
+            <div class="continentes mt-3">
+                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'Africa')">Africa</button>
+                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'Asia')">Asia</button>
+                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'Europe')">Europe</button>
+                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'North America')">North America</button>
+                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'South America')">South America</button>
+                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'South, Central and North America')">South, Central and North America</button>
             </div>
-    
-            <!-- Información del autor -->
-            <div class="col-md-2">
-                <div class="author-info text-center">
-                    <img src="20190708_dr_cristiano.jpg" alt="Autor" class="img-fluid rounded-circle mb-3">
-                    <h5>Cristiano De Angelis</h5>
-                    <p>Investigador y autor especializado en gestión del conocimiento y la inteligencia organizacional.</p>
-                </div>
+            <div> </div>
+            <h2>RESEARCH FOR COUNTRIES</h2>
+            <div class="paises mt-3">
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Argentina')">Argentina</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Brazil')">Brazil</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Chile')">Chile</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Colombia')">Colombia</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Ecuador')">Ecuador</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'England')">England</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'India')">India</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Mexico')">Mexico</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Nigeria')">Nigeria</button>
+                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Portugal')">Portugal</button>
             </div>
-        </div>
+            
+            </div>
+        </section> 
+
     </main>
-    
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="text-white text-center py-3 custom-footer">
         <p>&copy; 2023 Cristiano De Angelis</p>
     </footer>
-    <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
