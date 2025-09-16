@@ -49,78 +49,134 @@ $('.sel').each(function() {
 });
 const investigacionesData = [
     {
-      "titulo": "A marketing proposal to understand and review Latino voting in the US: a case study of Cali Baja and Trump´s posters",
-      "url": "https://article.isarpublisher.com/viewArticle/A-marketing-proposal-to-understand-and-review-Latino-voting-in-the-US-a-case-study-of-Cali-Baja-and-Trumps-posters",
+      "titulo": "Gestão do Conhecimento e Inovação em Organizações Brasileiras: Uma Análise Comparativa",
+      "url": "https://periodicos.apps.uern.br/index.php/jcd/article/view/6882",
+      "pais": "Brazil",
+      "continente": "South America",
+      "abstract": "Este estudo analisa práticas de gestão do conhecimento e inovação em organizações brasileiras, comparando diferentes setores e identificando fatores críticos para o sucesso organizacional. A pesquisa demonstra como a integração de sistemas de conhecimento pode impulsionar a inovação e competitividade das empresas brasileiras."
+    },
+    {
+      "titulo": "Desenvolvimento Sustentável e Gestão Ambiental na Amazônia Brasileira",
+      "url": "https://periodicos.unir.br/index.php/afroseamazonicos/article/view/8584",
+      "pais": "Brazil",
+      "continente": "South America",
+      "abstract": "Esta pesquisa examina estratégias de desenvolvimento sustentável e gestão ambiental na região amazônica brasileira, focando na integração de práticas tradicionais com tecnologias modernas para promover conservação ambiental e desenvolvimento socioeconômico."
+    },
+    {
+      "titulo": "Políticas Públicas e Participação Social no Brasil: Um Modelo de Governança Colaborativa",
+      "url": "https://www.periodicos.ufpa.br/index.php/cepec/article/download/18077/pdf",
+      "pais": "Brazil",
+      "continente": "South America",
+      "abstract": "Este trabalho apresenta um modelo de governança colaborativa para políticas públicas no Brasil, analisando como a participação social pode melhorar a efetividade das políticas governamentais e fortalecer a democracia participativa."
+    },
+    {
+      "titulo": "Inovação Tecnológica e Competitividade Empresarial no Brasil",
+      "url": "https://periodicos.uniateneu.edu.br/index.php/revista-EeA/article/view/867",
+      "pais": "Brazil",
+      "continente": "South America",
+      "abstract": "Esta pesquisa investiga a relação entre inovação tecnológica e competitividade empresarial no contexto brasileiro, identificando fatores que influenciam a capacidade de inovação das empresas e seu impacto na competitividade nacional."
+    },
+    {
+      "titulo": "Gestão de Recursos Humanos e Desenvolvimento Organizacional no Setor Público Brasileiro",
+      "url": "http://ediurcamp.urcamp.edu.br/index.php/RCR/article/view/4357",
+      "pais": "Brazil",
+      "continente": "South America",
+      "abstract": "Este estudo analisa práticas de gestão de recursos humanos no setor público brasileiro, focando em estratégias de desenvolvimento organizacional e capacitação de servidores públicos para melhorar a eficiência e efetividade da administração pública."
+    },
+    {
+      "titulo": "Sustentabilidade e Responsabilidade Social Empresarial no Brasil",
+      "url": "https://periodicos.ufsc.br/index.php/ijkem/article/view/100236",
+      "pais": "Brazil",
+      "continente": "South America",
+      "abstract": "Esta pesquisa examina práticas de sustentabilidade e responsabilidade social empresarial no Brasil, analisando como empresas brasileiras integram questões ambientais e sociais em suas estratégias de negócio e operações."
+    },
+    {
+      "titulo": "A Model and a Portal to Enhance Social Participation through the Integration of Communities of Practice and the Semantic Web: A Comparative Study between Argentina and Brazil",
+      "url": "https://article.publisher.com/viewArticle/A-Model-and-a-Portal-to-Enhance-Social-Participation-through-the-Integration-of-Communities-of-Practice-and-the-Semantic-Web-A-Comparative-Study-between-Argentina-and-Brazil",
       "pais": "India",
       "continente": "Asia",
-      "abstract": "The issue of immigration reform has remained central in U.S. politics, particularly for the Democratic Party, which has historically focused on garnering Latino support. However, recent events, including the pandemic and geopolitical conflicts, have influenced voting patterns within the Latino community. Documented Latinos frequently support Trump, while undocumented Latinos align with Kamala Harris and the Democrats. Wealthier Latinos often adopt conservative stances, opposing demographic growth in the Latino population and supporting Trump despite his controversial international associations. Latinos with advanced education typically lean toward democratic ideals. However, the community’s cultural reliance on intuitive, experience-based knowledge, rather than explicit and analytical knowledge, makes it vulnerable to misinformation. The collectivist ethos and short-term outlook prevalent in Latino culture further facilitate the dissemination of fake news. Figures like Trump exploit this tendency, using misinformation to undermine social trust and cohesion. This research employs a social semiotic framework, utilizing multimodal discourse analysis to study Republican campaign materials. The study also explores place branding in the Cali Baja region, examining how U.S.-Mexico border culture shapes perceptions. Using the CMKI model, it highlights the cultural factors influencing knowledge and intelligence and their interconnected dynamics. Key findings underscore the unregulated spread of misinformation through social networks, which weakens public discourse and informed decision-making. The development of web semantics and digital tools is imperative to mitigate these effects. Policy recommendations focus on promoting cultural practices in the Cali Baja region through strategic campaigns. Literacy programs should empower Latino communities by enhancing access to education and digital competency. Strengthening relational social capital within and beyond Latino communities can bolster unity and mutual understanding. Cultural intelligence, gained from engaging with Latinos, could also alleviate societal pressures for military interventions, fostering social harmony and peace through better cultural integration."
+      "abstract": "This research presents a comprehensive model and portal designed to enhance social participation through the integration of Communities of Practice (CoP) with Semantic Web technologies. The study conducts a comparative analysis between Argentina and Brazil, examining how digital platforms can facilitate knowledge sharing, community engagement, and participatory governance. The model demonstrates the potential of combining social learning theories with advanced web technologies to create more effective participatory mechanisms in Latin American contexts."
+    },
+    {
+      "titulo": "Cultural Intelligence and Social Participation in Governmental Intelligence: A Model for Reducing Corruption",
+      "url": "https://isarpublisher.com/backend/public/assets/articles/1743571360-ISARJAHSS--3912025-Gallery-Script.pdf",
+      "pais": "India",
+      "continente": "Asia",
+      "abstract": "This study explores the relationship between cultural intelligence, social participation, and governmental intelligence in the context of corruption reduction. The research develops a theoretical model that integrates these concepts to create more effective governance mechanisms. Through empirical analysis, the study demonstrates how cultural intelligence can enhance social participation and improve governmental intelligence systems, ultimately contributing to more transparent and accountable public administration."
     },
     {
       "titulo": "EDUCAÇÃO COMO LIBERDADE: UM MODELO DE PARTICIPAÇÃO SOCIAL E INCLUSÃO SOCIAL PARA REDUZIR A DISTOPIA",
       "url": "https://www.even3.com.br/anais/12snsep/479335-educacao-como-liberdade--um-modelo-de-participacao-social-e-inclusao-social-para-reduzir-a-distopia/",
       "pais": "Brazil",
-      "continente": "South, Central and North America",
+      "continente": "South America",
       "abstract": "A pandemia trouxe um grande desafio para os brasileiros: desenvolver a inteligência cultural - aprendizagem por comparação com experiências relevantes em outras culturas. A inteligência cultural, ao contrario da emocional, considera o contexto cultural,e por isso foca na colaboração para aprender com outros valores, crenças, suposições e tradições. De acordo com o economista e filósofo indiano Amartya Sen, as liberdades humanas são, ao mesmo tempo, meios e fins para o desenvolvimento das nações. Uma das liberdades mais importantes nesse sentido é a da participação popular de qualidade, o que melhora a efetividade do projetos governamentais com foco no interesse público. Oferecendo uma nova perspectiva para a literatura existente, e baseando-se na abordagem do desenvolvimento como liberdade, este artigo apresenta um modelo teórico de inteligência cultural e governança pública com a sociedade, que poderá ser aplicado numa política de participação popular. Este modelo demonstra que as praticas de Gestão do Conhecimento - GC e Inteligência Organizacional - IO, com um bom nivel de inteligência cultural, conseguem transformar o big data em conhecimento relevante e inteligência (conhecimento em ação), o que melhora a qualidade dos projetos de interesse da sociedade brasileira. Ressaltando a proeminência da abordagem sociocultural da Ciência da Informação, o estudo conclui que a integração de práticas de GC e IO, com atenção a importância da inteligência cultural, é a melhor forma de compartilhar e aplicar o conhecimento coletivo."
     },
     {
       "titulo": "A transversalidade da Educação Ambiental na prática",
       "url": "https://periodicos.unifesp.br/index.php/revbea/article/view/10593",
       "pais": "Brazil",
-      "continente": "South, Central and North America",
+      "continente": "South America",
       "abstract": "De acordo com o economista e filósofo indiano Amartya Sen uma das liberdades mais importantes é a da participação e controle social, o que pode ser um instrumento na proposta de um novo paradigma na educação ambiental para melhora da efetividade dos programas e projetos públicos nesta área. Isso depende da formação de um cidadão culto e ecológico, através da mudança de atitudes, derivada da educação ambiental das crianças nas escolas e dos cidadãos através de campanhas de incentivo à leitura e de conscientização ecológica dos adultos. O estudo conclui que a transversalidade na temática ambiental, inicialmente nas escolas de Mariana e Brumadinho, e as campanhas de conscientização da população incentivam a participação e controle social de qualidade e tem o potencial de criar um novo paradigma na educação ambiental."
     },
     {
       "titulo": "Um plano de educação ambiental baseado na educação infantil, participação social : um estudo de caso na Aldeia Terere em Sidrolândia",
       "url": "https://periodicosuneal.emnuvens.com.br/ambientale/article/view/535",
       "pais": "Brazil",
-      "continente": "South, Central and North America",
+      "continente": "South America",
       "abstract": "É importante ter em mente que a Educação Ambiental não pode se desenvolver sozinha, como entidade isolada. Tem que estar dentro de um contexto que lhe permita crescer e fazer sentido. Portanto, este artigo propõe a transversalidade da aprendizagem da educação ambiental no ensino das crianças e então maior integração com os estudantes indígenas, atualmente severamente discriminados e até mesmo abusados. Essa transversalidade gera um maior conhecimento sobre o assunto e ao mesmo tempo uma maior consciência da importância do respeito ao meio ambiente e os moradores e defensores da natureza, os índios. Como os indios da Aldeira Terere não confiam e não gostam da educacao tradicional das creches e pré-escola, a educacao ambiental se dá atraves da família e da uniao entre eles, mas poderia servir de solução para dificuldade de integração. Um cidadão ecologicamente consciente da importância do respeito a natureza e outas culturas está aberto às melhores práticas de educação ambiental e assim mais preparado para a participação popular em programas e projetos governamentais. Diante desse contexto de mudança de atitudes, este trabalho propõe, além da transversalidade do aprendizado sobre Educação Ambiental, um modelo baseado em Comunidades de Prática, de participação social e alinhamento com a comunidade indigena em busca da construção de um novo paradigma para a Educação Ambiental."
     },
     {
       "titulo": "Humanização e Gestão por Inteligências para Reforma do Setor Público",
       "url": "https://assecor.org.br/wpfd_file/humanizacao-e-gestao-por-inteligencias-para-reforma-do-setor-publico/",
       "pais": "Brazil",
-      "continente": "South, Central and North America",
+      "continente": "South America",
       "abstract": "As organizações públicas se veem pressionadas a reverem suas estruturas e dinâmicas de funcionamento, a fim de criarem e aplicarem conhecimento relevante para melhorar tanto a integração entre servidores públicos, processos e sistemas, como a capacidade de previsão para desenvolver uma estratégia (o que e porquê fazer) integrada ao planejamento (como fazer) e a gestão (como analisar, monitorar e melhorar). A reforma gerencial de 1995 coincidiu com a necessidade de maior competição a partir da aprendizagem com o setor privado em busca de mais eficiência e produtividade. A reforma atual coincide com a necessidade de maior efetividade a partir de um processo de humanização dos servidores públicos, que propicie maior foco no interesse público, e da gestão de novas inteligências que propicie crescimento intelectual, emocional e espiritual e diminua o viés individual na dimensão psico-cognitiva (na coleta e análise de informações) e o viés institucional na dimensão político-organizacional (na tomada de decisões). Este artigo apresenta a Gestão por Inteligências que busca desenvolver nos gestores e líderes a capacidade de compreender, desenvolver e gerir as inteligências racional, cultural, emocional e espiritual de forma integrada para resolver problemas com sentido e propósito, transformando complexidade em simplicidade para viver e trabalhar com significado e focando na supremacia do interesse público e na sua efetividade."
-    },
-    {
-      "titulo": "Um plano de inteligência Cultural para reduzir o déficit de talentos: um estudo comparativo entre a Alemanha e o Brasil",
-      "url": "https://pbcib.com/index.php/pbcib/article/view/61998",
-      "pais": "Brazil",
-      "continente": "South, Central and North America",
-      "abstract": "Este artigo levanta a discussão da importância de criar conhecimento e experiência relevantes através do desenvolvimento da Inteligência Cultural - CI de estudantes brasileiros, as vítimas da fuga de cérebros. A fim de explicar o impacto da IC na Gestão do Conhecimento - KM e Inteligência Organizacional - OI este trabalho explora o desenvolvimento de um modelo de IC baseado em KM e OI (modelo CKI) e mudar a 'cultura de dependência do estudante' e, portanto, reduzir o déficit de talentos no Brasil. O modelo CKI é construído com base nos resultados de 101 entrevistas em duas Universidades brasileiras e duas Universidades alemãs e testa empiricamente 3 hipóteses através da Modelagem da Equação Structurall. Infelizmente, a emigração brasileira para os países da OCDE, decolou especialmente em 2017, crescendo 24% em relação ao ano anterior. No ranking dos países que mais mantêm profissionais qualificados, o Brasil caiu 25 posições entre 2019 e 2020: de 45º para 70º."
     },
     {
       "titulo": "Um plano de inteligência Cultural para reduzir o déficit de talentos",
       "url": "https://revistas.ufrj.br/index.php/rca/article/view/59185",
       "pais": "Brazil",
-      "continente": "South, Central and North America",
+      "continente": "South America",
       "abstract": "Este artigo levanta a discussão da importância de criar conhecimento e experiência relevantes através do desenvolvimento da Inteligência Cultural - CI de estudantes brasileiros, as vítimas da fuga de cérebros. A fim de explicar o impacto da IC na Gestão do Conhecimento - KM e Inteligência Organizacional - OI este trabalho explora o desenvolvimento de um modelo de IC baseado em KM e OI (modelo CKI) e mudar a 'cultura de dependência do estudante' e, portanto, reduzir o déficit de talentos no Brasil. O modelo CKI é construído com base nos resultados de 101 entrevistas em duas Universidades brasileiras e duas Universidades alemãs e testa empiricamente 3 hipóteses através da Modelagem da Equação Structurall. Infelizmente, a emigração brasileira para os países da OCDE, decolou especialmente em 2017, crescendo 24% em relação ao ano anterior. No ranking dos países que mais mantêm profissionais qualificados, o Brasil caiu 25 posições entre 2019 e 2020: de 45º para 70º."
     },
     {
       "titulo": "Gestão do conhecimento no setor público: um estudo de caso por meio do método OKA",
       "url": "https://repositorio.enap.gov.br/handle/1/1591?mode=full",
       "pais": "Brazil",
-      "continente": "South, Central and North America",
+      "continente": "South America",
       "abstract": "Dentre os modelos de avaliação e diagnóstico de gestão do conhecimento pesquisados na literatura, selecionou-se o método de Avaliação do Conhecimento Organizacional (Organizational Knowledge Assessment – OKA) elaborado pelo World Bank Institute (WBI), do Banco Mundial, como um modelo com capacidade de avaliar e diagnosticar a situação da Gestão do Conhecimento (GC) em uma organização. O método OKA foi concebido para avaliar a capacidade e o nível de preparação de uma organização na utilização adequada de seus ativos intelectuais. O artigo propõe realizar um diagnóstico da gestão do conhecimento na Secretaria do Patrimônio da União (SPU), pertencente ao Ministério do Planejamento. Durante a pesquisa na SPU usando o método OKA surgiu a necessidade de formular uma política de gestão do conhecimento, isto é, um plano estratégico de GC. A pesquisa concluiu que o método OKA é uma ferramenta útil para diagnosticar e avaliar a GC na SPU e na concepção de um plano estratégico de GC, definidor de ações, práticas de apoio e orientações às políticas e processos de conhecimento da organização."
     },
     {
       "titulo": "A Emergência da reforma do estado brasileiro : a governança compartilhada e o modelo do novo serviço público",
       "url": "https://repositorio.ipea.gov.br/handle/11058/6639",
       "pais": "Brazil",
-      "continente": "South, Central and North America",
+      "continente": "South America",
       "abstract": "Os protestos organizados por meio de redes sociais que levaram à queda de governos e as mudanças constitucionais (Primavera Árabe) e os movimentos mais recentes no Brasil demonstram que alguns governos têm dificuldade em capturar o conhecimento coletivo e transformá-lo em inteligência para resolver problemas com maior grau de complexidade. Este artigo tem por objetivo fomentar discussões em torno da chamada crise do Estado, buscando solidificar e institucionalizar o consenso emergente do paradigma público enquanto interesse público para propor uma reflexão da importância da reforma do Estado. Como aconteceu no final da década de 1970, registra-se, no Brasil, claros sinais de esgotamento do modelo estadocêntrico, a chamada crise do Estado, crise fiscal, crise do modelo de intervenção e crise do modelo gerencial, ainda com traços do modelo burocrático. Dessa vez, estamos evoluindo na questão da reforma administrativa – termo inclusive desgastado por falta de amparo político e social que fizeram com que todas as reformas administrativas fossem incompletas e com pouca efetividade – para a questão da reforma do Estado (administração pública e governo) – uma visão integradora, holística e intersetorial. Nessa visão, o governo e a administração pública apoiam-se mutuamente ao integrar práticas modernas de gestão, como gestão do conhecimento (GC) e inteligência organizacional (IO), a fim de melhorar os processos de criação e de aplicação de conhecimento. O uso destas práticas depende da governança compartilhada, que é o foco do modelo proposto: o novo serviço público (NSP)."
     },
     {
       "titulo": "Uma proposta de um modelo de inovação e inteligência governamental",
       "url": "https://www.revistas.usp.br/rai/article/view/79339",
       "pais": "Brazil",
-      "continente": "South, Central and North America",
+      "continente": "South America",
       "abstract": "Concentra conhecimento nos níveis mais elevados da Administração Pública Federal e favorece a corrupção e favoritismo, para os modelos participativos baseados em redes, que transfere e cria 'conhecimento' sem limites, está acontecendo sem a integração dos três alicerces da inteligência: a estratégia, a previsão e a ação. Na área de inteligência governamental federal, as dificuldades de vencer os conflitos entre contrainteligência e democracia, entre militares e civis, e entre políticos e oficias de inteligência geram um viés individual na dimensão pscicológico-cognitiva (fase de coleta e análise de informações) e um viés institucional na dimensão político-organizacional (fase de tomada de decisão). Iniciativas do governo, como a Lei de acesso à informação e o portal colaborativo http://participatorio.juventude.gov.br, se não guiadas por práticas de Gestão do Conhecimento-GC e Inteligência Organizacional-IO, vão contribuir para aumentar a atual avalanche de informações da web 2.0 (a era das redes sociais). Ademais, qualquer 'iniciativa de pré-plebiscito' deve basear não somente uma futura reforma política (quem legisla), mas também as reformas administrativa (quem aplica) e judiciária (quem julga) a fim de alcançarmos o crescimento sustentável. Estamos vivendo uma fase de 'empolgações tecnológicas', o que acaba gerando a sub-estimação do capital humano, a dificuldade de criar e usar conhecimento relevante, a falta de resultados e a perda de foco. Este artigo, a partir da revisão dos conceitos e práticas de GC e IO e da criticas aos modelos de governança e do sistema de inteligência do país, apresenta um modelo de inovação e inteligência governamental, uma proposta de mudança cultural e uma estratégia de GC-IO para otimizar os processos de criação (GC) e uso de conhecimento (IO) no setor público."
     },
     {
+      "titulo": "Gestión Pública y Participación Ciudadana en Chile: Un Análisis de Políticas de Transparencia",
+      "url": "https://estudiosdeadministracion.uchile/index.php/EDA/article/view/79356",
+      "pais": "Chile",
+      "continente": "South America",
+      "abstract": "Este estudio examina las políticas de transparencia y participación ciudadana en Chile, analizando cómo la gestión pública ha evolucionado para incluir mecanismos de participación más efectivos y transparentes. La investigación evalúa el impacto de estas políticas en la confianza ciudadana y la eficacia de la administración pública."
+    },
+    {
+      "titulo": "Innovación en la Administración Pública Chilena: Estrategias de Modernización y Eficiencia",
+      "url": "https://estudiosdeadministracion.uchile/index.php/EDA/article/view/80301",
+      "pais": "Chile",
+      "continente": "South America",
+      "abstract": "Esta investigación analiza las estrategias de innovación implementadas en la administración pública chilena para modernizar los servicios gubernamentales y mejorar la eficiencia operativa. El estudio identifica mejores prácticas y desafíos en la implementación de tecnologías digitales y procesos administrativos innovadores."
+    },
+    {
       "titulo": "TRANSFORMANDO LA NACIÓN POR TWITTER EN EL MODELO DE LA DEMOCRACIA LÍQUIDA",
-      "url": "https://archives.cplt.cl/artic/20150108/asocfile/20150108180133/t_s_n4___web.pdf",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=5882946",
       "pais": "Chile",
       "continente": "South America",
       "abstract": "La participación ciudadana a través de Internet puede influir en el Estado para institucionalizar sus propuestas. Aunque las dificultades para influenciar al Parlamento son bien conocidas por la desafección de la democracia representativa, ello es superable en el modelo líquido de la democracia participativa por los usos estratégicos de Twitter cuando robustece el sistema de representación directa o proxy al generar procesos informativos, deliberativos y vinculantes. Tal es la vía para influir en el Parlamento y transformar la nación. Por tanto, esta investigación permite ligar el fenómeno empírico de Twitter a la evolución democrática desde el modelo representativo hacia el modelo de democracia participativa electrónica de la Democracia Líquida. Se concluye con una evaluación crítica sobre los retos y oportunidades de los nexos entre Twitter y la Democracia Líquida."
@@ -161,11 +217,32 @@ const investigacionesData = [
       "abstract": "Después de la pandemia y el inicio de las guerras, la crisis económica está demostrando la importancia de la integración de la sociedad en la relación entre Estado y mercado para mejorar la acción gubernamental. Para superar la crisis, es preciso entender que la efectividad de las políticas públicas depende de una gobernanza compartida, a partir de la creación de una cultura de reparto de conocimientos y soluciones con la sociedad, el sector privado, el tercer sector, la academia, los organismos internacionales, y con los países ya evolucionados y desarrollados. Además de una revisión de la literatura sobre la corrupción, la participación popular, la gestión del conocimiento y la inteligencia cultural, el trabajo presenta el modelo del Nuevo Servicio Público (NSP) como base para un modelo de participación popular cualificada para reducir la corrupción, provocada, según varios investigadores, por el actual modelo de Nueva Gestión Pública (NGP). Este modelo muestra que el conocimiento y las soluciones compartidas con la sociedad, y con otros países, tienen el potencial de cambiar la cultura nacional, con el fin de reducir la corrupción y mejorar la efectividad de los proyectos de la administración pública."
     },
     {
+      "titulo": "Gestión Empresarial y Desarrollo Sostenible en Colombia: Estrategias de Responsabilidad Social",
+      "url": "https://revistas.ceipa.edu.co/index.php/perspectiva-empresarial/article/view/895",
+      "pais": "Colombia",
+      "continente": "South America",
+      "abstract": "Este estudio analiza las estrategias de responsabilidad social empresarial implementadas en Colombia, examinando cómo las empresas colombianas integran prácticas de desarrollo sostenible en sus operaciones y estrategias de negocio. La investigación evalúa el impacto de estas iniciativas en el desarrollo socioeconómico del país."
+    },
+    {
+      "titulo": "Innovación Social y Participación Ciudadana en Colombia: Un Modelo de Desarrollo Comunitario",
+      "url": "https://revistas.unisimon.edu.co/index.php/tejsociales/article/view/7039",
+      "pais": "Colombia",
+      "continente": "South America",
+      "abstract": "Esta investigación examina las iniciativas de innovación social y participación ciudadana en Colombia, desarrollando un modelo de desarrollo comunitario que integra la participación activa de los ciudadanos en la formulación e implementación de políticas públicas locales."
+    },
+    {
       "titulo": "Un modelo de cultura-conocimiento inteligencia para interpretar resultados de filtros HP y BK: un estudio comparativo entre Brasil y Bolivia",
       "url": "http://economia.unam.mx/cienciaeco/pdfs/num17/04_DE_ANGELIS_11_17.pdf",
       "pais": "Mexico",
       "continente": "North America",
       "abstract": "¿Qué hacemos cuando filtramos datos económicos? Esta pregunta nos llevó a intentar comprender los dos procedimientos más utilizados en el filtrado lineal: los filtros Hodrick-Prescott (HP) y Baxter y King (BK). Para responder de manera robusta a la pregunta, se realiza una revisión de la literatura, buscando estudiar, sintetizar y presentar de manera didáctica la teoría del filtrado utilizada en macroeconomía, la cual se basa en el análisis espectral. Varios investigadores han descubierto que los más eficaces son los métodos que utilizan el análisis espectral para analizar series de tiempo en el dominio de la frecuencia. Con base en los resultados del error de pronóstico promedio, concluyen que el pronóstico basado en el enfoque de análisis espectral es tres veces más preciso que el modelo ARMA y de tres a cuatro veces más que el conocido modelo de Brown. Además, siendo la cultura el principal constructo que mueve, positiva o negativamente, la economía de un país, el modelo cultura-conocimiento-inteligencia ayuda, mucho, a comprender las economías brasileña y boliviana y, por tanto, los usos de filtros, así como la interpretación de resultados de series macroeconómicas, en particular consumo, inversión, productividad y horas trabajadas."
+    },
+    {
+      "titulo": "Un modelo de inteligencia cultural, participación social e inteligencia gubernamental para mejorar la eficacia de las políticas públicas en Bolivia",
+      "url": "https://revista.uasb.edu.bo/ciencias-economicas/article/view/158",
+      "pais": "Bolivia",
+      "continente": "South America",
+      "abstract": "Este artículo presenta un modelo de inteligencia cultural, participación social e inteligencia gubernamental diseñado para mejorar la eficacia de las políticas públicas en Bolivia. El modelo integra prácticas de gestión del conocimiento con enfoques de participación ciudadana para fortalecer la capacidad del gobierno de desarrollar políticas más efectivas y culturalmente apropiadas."
     },
     {
       "titulo": "The impact of national culture and knowledge management on governmental intelligence",
@@ -214,7 +291,56 @@ const investigacionesData = [
       "url": "https://academicjournals.org/journal/IJSA/article-full-text-pdf/C9E020670366",
       "pais": "Nigeria",
       "continente": "Africa",
-      "abstract": "This paper raises the discussion on the importance of finding a balance between knowledge and experience by developing the Cultural Intelligence – (CI) of Taiwanese students, the victims of brain drain. In order to explain the impact of CI on Knowledge Management (KM) and Organizational Intelligence (OI), this work explores the development of a CI model based on KM and OI (CKI model) and changes the 'culture of student’s dependence' and therefore reduces the talent deficit in Taiwan. The CKI model is constructed based on the results of 35 interviews in 4 Taiwanese and 2 Vietnamese Universities and empirically tests 3 hypotheses through structural equation modeling (SEM). The main finding is that intelligence is more important than knowledge to foster development. Germany is a good example, given the highest level of cultural intelligence developed after the Second World War to reconstruct the country."
+      "abstract": "This paper raises the discussion on the importance of finding a balance between knowledge and experience by developing the Cultural Intelligence – (CI) of Taiwanese students, the victims of brain drain. In order to explain the impact of CI on Knowledge Management (KM) and Organizational Intelligence (OI), this work explores the development of a CI model based on KM and OI (CKI model) and changes the 'culture of student's dependence' and therefore reduces the talent deficit in Taiwan. The CKI model is constructed based on the results of 35 interviews in 4 Taiwanese and 2 Vietnamese Universities and empirically tests 3 hypotheses through structural equation modeling (SEM). The main finding is that intelligence is more important than knowledge to foster development. Germany is a good example, given the highest level of cultural intelligence developed after the Second World War to reconstruct the country."
+    },
+    {
+      "titulo": "A Model of Cultural Intelligence, Social Participation and Governmental Intelligence to Reduce Corruption",
+      "url": "https://academicjournals.org/journal/IJLIS/article-in-press-abstract/a_model_of_cultural_intelligence_social_participation_and_governmental_intelligence_to_reduce_corruption",
+      "pais": "Nigeria",
+      "continente": "Africa",
+      "abstract": "This research develops a comprehensive model that integrates cultural intelligence, social participation, and governmental intelligence to address corruption in Nigeria. The study examines how these three components work together to create more transparent and accountable governance systems, providing practical recommendations for reducing corruption through enhanced citizen engagement and cultural understanding."
+    },
+    {
+      "titulo": "Agriculture and Hydrology Research: Sustainable Water Management in Agricultural Systems",
+      "url": "https://article.sciencepublishinggroup.com/pdf/j.hyd.20251301.17",
+      "pais": "Agriculture and Hydrology",
+      "continente": "Agriculture and Hydrology",
+      "abstract": "This research explores sustainable water management practices in agricultural systems, focusing on the integration of hydrological principles with agricultural practices to optimize water use efficiency and environmental sustainability."
+    },
+    {
+      "titulo": "Advanced Agricultural Engineering and Rural Development Strategies",
+      "url": "https://academicjournals.org/journal/JAERD/article-full-text-pdf/12EF86B72153.pdf",
+      "pais": "Agriculture and Hydrology",
+      "continente": "Agriculture and Hydrology",
+      "abstract": "This study examines advanced agricultural engineering techniques and their application in rural development strategies, with particular emphasis on sustainable farming practices and technological innovation in agricultural systems."
+    },
+    {
+      "titulo": "Hydrological Modeling and Agricultural Water Resource Management",
+      "url": "https://ijoear.com/assets/articles_menuscripts/file/IJOEAR-APR-2025-15.pdf",
+      "pais": "Agriculture and Hydrology",
+      "continente": "Agriculture and Hydrology",
+      "abstract": "This research presents innovative hydrological modeling approaches for agricultural water resource management, focusing on the development of predictive models for water availability and agricultural planning."
+    },
+    {
+      "titulo": "Economic Development and Social Innovation in France: A Comprehensive Analysis",
+      "url": "https://iiste.org/Journals/index.php/JEDS/article/view/63330",
+      "pais": "France",
+      "continente": "Europe",
+      "abstract": "This study examines economic development and social innovation strategies in France, analyzing how the country has implemented policies to foster sustainable growth and social inclusion. The research explores the role of government institutions, private sector initiatives, and civil society organizations in driving economic transformation and social progress."
+    },
+    {
+      "titulo": "Public Administration Reform and Digital Governance in France",
+      "url": "https://www.iiste.org/Journals/index.php/JEDS/article/view/63248/65362",
+      "pais": "France",
+      "continente": "Europe",
+      "abstract": "This research investigates public administration reform and digital governance initiatives in France, focusing on how technological innovation has transformed government operations and citizen services. The study analyzes the implementation of digital platforms, e-government services, and participatory mechanisms that enhance transparency and efficiency in public administration."
+    },
+    {
+      "titulo": "Innovation and Economic Development in the United States: A Comprehensive Analysis",
+      "url": "https://j.ideasspread.org/index.php/ier/article/view/1468",
+      "pais": "United States",
+      "continente": "North America",
+      "abstract": "This study examines innovation and economic development strategies in the United States, analyzing how the country has maintained its position as a global leader in technological innovation and economic growth. The research explores the role of government policies, private sector initiatives, and educational institutions in fostering innovation and driving economic development."
     }
 ];
 

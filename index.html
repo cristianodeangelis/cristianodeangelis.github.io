@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header class="bg-dark text-white text-center py-3">
@@ -50,30 +52,59 @@
             </div>
         </section>
         <section id="publicaciones-index" class="text-center mt-5">
-            <h2>RESEARCH</h2>
-            <div class="continentes mt-3">
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'Africa')">Africa</button>
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'Asia')">Asia</button>
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'Europe')">Europe</button>
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'North America')">North America</button>
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'South America')">South America</button>
-                <button class="button-65" role="button" class="btn btn-primary m-2" onclick="redirectToResearch('continente', 'South, Central and North America')">South, Central and North America</button>
-            </div>
-            <div> </div>
-            <h2>RESEARCH FOR COUNTRIES</h2>
-            <div class="paises mt-3">
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Argentina')">Argentina</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Brazil')">Brazil</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Chile')">Chile</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Colombia')">Colombia</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Ecuador')">Ecuador</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'England')">England</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'India')">India</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Mexico')">Mexico</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Nigeria')">Nigeria</button>
-                <button class="button-65" role="button" class="btn btn-secondary m-2" onclick="redirectToResearch('pais', 'Portugal')">Portugal</button>
-            </div>
-            
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <h2 class="section-title mb-5">RESEARCH BY CONTINENTS</h2>
+                        <div class="continentes-grid mb-5">
+                            <button class="continent-btn" onclick="redirectToResearch('continente', 'Africa')">
+                                <i class="fas fa-globe-africa"></i>
+                                <span>Africa</span>
+                            </button>
+                            <button class="continent-btn" onclick="redirectToResearch('continente', 'Asia')">
+                                <i class="fas fa-globe-asia"></i>
+                                <span>Asia</span>
+                            </button>
+                            <button class="continent-btn" onclick="redirectToResearch('continente', 'Europe')">
+                                <i class="fas fa-globe-europe"></i>
+                                <span>Europe</span>
+                            </button>
+                            <button class="continent-btn" onclick="redirectToResearch('continente', 'North America')">
+                                <i class="fas fa-globe-americas"></i>
+                                <span>North America</span>
+                            </button>
+                            <button class="continent-btn" onclick="redirectToResearch('continente', 'South America')">
+                                <i class="fas fa-globe-americas"></i>
+                                <span>South America</span>
+                            </button>
+                        </div>
+                        
+                        <h2 class="section-title mb-5">RESEARCH BY SPECIALTY</h2>
+                        <div class="specialty-grid mb-5">
+                            <button class="specialty-btn" onclick="redirectToResearch('continente', 'Agriculture and Hydrology')">
+                                <i class="fas fa-seedling"></i>
+                                <span>Agriculture & Hydrology</span>
+                            </button>
+                        </div>
+                        
+                        <h2 class="section-title mb-5">RESEARCH BY COUNTRIES</h2>
+                        <div class="countries-grid">
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'Argentina')">Argentina</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'Bolivia')">Bolivia</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'Brazil')">Brazil</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'Chile')">Chile</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'Colombia')">Colombia</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'Ecuador')">Ecuador</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'England')">England</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'France')">France</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'India')">India</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'Mexico')">Mexico</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'Nigeria')">Nigeria</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'Portugal')">Portugal</button>
+                            <button class="country-btn" onclick="redirectToResearch('pais', 'United States')">United States</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section> 
 
